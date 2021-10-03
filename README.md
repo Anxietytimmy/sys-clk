@@ -141,6 +141,10 @@ To protect the battery from excessive strain, clocks requested from config may b
 * 714
 * 612
 * 510
+* Any clocks below this point render the home menu starts becoming unusable
+* 408
+* 306
+* 204
 
 ### GPU clocks
 * 921 → max clock
