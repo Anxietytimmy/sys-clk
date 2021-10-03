@@ -140,6 +140,7 @@ To protect the battery from excessive strain, clocks requested from config may b
 * 816
 * 714
 * 612
+* 510
 
 ### GPU clocks
 * 921 → max clock
