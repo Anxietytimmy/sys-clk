@@ -139,9 +139,8 @@ To protect the battery from excessive strain, clocks requested from config may b
 * 918
 * 816
 * 714
-* 612
+* 612 
 * 510
-* Any clocks below this point render the home menu starts becoming unusable
 * 408
 * 306
 * 204
