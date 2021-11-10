@@ -24,7 +24,7 @@
 
 #include "utils.h"
 
-#define DANGEROUS_TEMP_THRESHOLD    84000
+#define DANGEROUS_TEMP_THRESHOLD    76000
 #define DANGEROUS_TEMP_COLOR        nvgRGB(255, 85, 0)
 
 StatusTab::StatusTab(RefreshTask *refreshTask) :
