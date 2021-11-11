@@ -30,7 +30,7 @@ CheatSheetTab::CheatSheetTab()
 
     cpuTable->addRow(brls::TableRowType::BODY, "Maximum", "1785 MHz");
     cpuTable->addRow(brls::TableRowType::BODY, "Official Docked and Handheld", "1020 MHz");
-    cpuTable->addRow(brls::TableRowType::BODY, "Minimum", "204 MHz")
+    cpuTable->addRow(brls::TableRowType::BODY, "Minimum", "204 MHz");
 
     this->addView(cpuTable);
 
@@ -42,7 +42,7 @@ CheatSheetTab::CheatSheetTab()
     gpuTable->addRow(brls::TableRowType::BODY, "Official Docked", "768 MHz");
     gpuTable->addRow(brls::TableRowType::BODY, "Maximum Handheld", "460 MHz");
     gpuTable->addRow(brls::TableRowType::BODY, "Official Handheld", "307-384 MHz");
-    gpuTable->addRow(brls::TableRowType::BODY, "Minimum", "76 MHz")
+    gpuTable->addRow(brls::TableRowType::BODY, "Minimum", "76 MHz");
 
     this->addView(gpuTable);
 
@@ -50,10 +50,10 @@ CheatSheetTab::CheatSheetTab()
     this->addView(new brls::Header("MEM Clocks"));
     brls::Table *memTable = new brls::Table();
 
-    memTable->addRow(brls::TableRowType::BODY, "Maximum", "2132 MHz")
+    memTable->addRow(brls::TableRowType::BODY, "Maximum", "2132 MHz");
     memTable->addRow(brls::TableRowType::BODY, "Official Docked", "1600 MHz");
     memTable->addRow(brls::TableRowType::BODY, "Official Handheld", "1331 MHz");
-    memTable->addRow(brls::TableRowType::BODY, "Minimum", "665 MHz")
+    memTable->addRow(brls::TableRowType::BODY, "Minimum", "665 MHz");
 
     this->addView(memTable);
 }
