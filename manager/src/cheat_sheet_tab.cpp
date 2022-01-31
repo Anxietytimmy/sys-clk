@@ -50,7 +50,6 @@ CheatSheetTab::CheatSheetTab()
     this->addView(new brls::Header("MEM Clocks"));
     brls::Table *memTable = new brls::Table();
 
-    memTable->addRow(brls::TableRowType::BODY, "Maximum", "1996.8 MHZ Erista", "2131 MHZ Mariko");
     memTable->addRow(brls::TableRowType::BODY, "Official Docked", "1600 MHz");
     memTable->addRow(brls::TableRowType::BODY, "Official Handheld", "1331 MHz");
     memTable->addRow(brls::TableRowType::BODY, "Minimum", "665 MHz");
