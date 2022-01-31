@@ -142,7 +142,6 @@ To protect the battery from excessive strain, clocks requested from config may b
 * 612 
 * 510
 * 408 → Minimum before system becomes unusable 
-* 306
 
 ### GPU clocks
 * 921 → max clock
