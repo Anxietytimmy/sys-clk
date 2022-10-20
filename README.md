@@ -156,6 +156,8 @@ To protect the battery from excessive strain, clocks requested from config may b
 * 230
 * 153
 * 76 → boost mode
+### Planned Features
+* Fps counter in overlay
 
 **Notes:**
 1. GPU overclock is capped at 460Mhz in handheld and capped at 768Mhz if charging, unless you're using the official charger.
